@@ -1,0 +1,22 @@
+*.pyc
+*.log
+
+.metadata/
+.recommenders/
+
+.Rproj*
+.Rproj.user/
+
+__pycahe__/
+
+settings
+chromedriver
+data/
+data
+data/*
+
+# IDEA IntelliJ files
+*.xml
+.idea/
+.ipynb_checkpoints/
+
