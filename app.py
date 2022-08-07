@@ -1,10 +1,8 @@
 # Run as
 # streamlit run <filename.py>
 import pandas as pd
-import re
-import matplotlib.pyplot as plt
 import datetime as dt
-import pdk_maps
+import re
 import streamlit as st
 import plotly.express as px  # interactive charts
 
