@@ -5,6 +5,8 @@ import datetime as dt
 import re
 import streamlit as st
 import plotly.express as px  # interactive charts
+# Set wide layput as default
+st.set_page_config(layout="wide")
 
 
 df = pd.read_csv("Accidental_Drug_Related_Deaths_2012-2018.csv")
