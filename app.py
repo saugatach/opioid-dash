@@ -30,6 +30,9 @@ df_state['Age'].fillna(0, inplace=True)
 df2 = df_state[opioid_cols]
 df2.fillna(0, inplace=True)
 df2.replace('Y', 1, inplace=True)
+df2 = df2.select_dtypes(['number'])
+print(df2)
+
 df3 = pd.DataFrame(df2.sum(axis=0))
 df3.rename(columns={0: 'Count'}, inplace=True)
 df3.index.name = 'Drug Name'
